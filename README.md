@@ -9,7 +9,7 @@ The app keeps maps on your Mac.
 You can also save maps in iCloud Drive.
 Apple Intelligence can make ideas on compatible Macs.
 
-![MindNative map editor](docs/images/editor.jpg)
+![MindNative project map with Goals, Milestones, Tasks, Risks, and Resources](docs/images/project-map.png)
 
 ## Functions
 
@@ -26,7 +26,6 @@ Apple Intelligence can make ideas on compatible Macs.
 - Restore local recovery copies and resolve file conflicts.
 
 The app has English and Spanish controls.
-See the [presentation](docs/images/presentation.jpg) and [radial layout](docs/images/radial.jpg) screenshots.
 
 ## Requirements
 
@@ -36,7 +35,6 @@ See the [presentation](docs/images/presentation.jpg) and [radial layout](docs/im
 - To use Apple Intelligence, set it to ON in System Settings.
 
 If Apple Intelligence cannot run, the app makes ideas from a built-in list.
-See the [Apple Intelligence screenshot](docs/images/apple-ai.png).
 
 ## Build the app
 
@@ -71,6 +69,10 @@ See [Build and test](docs/BUILD.md) for command-line instructions.
 
 Use the File menu to import or export a map.
 Use the Canvas menu to change the layout or start a presentation.
+
+A new document starts with a blank canvas.
+
+![MindNative blank canvas with New idea, Brainstorm, and Template controls](docs/images/blank-canvas.png)
 
 ## Privacy
 
