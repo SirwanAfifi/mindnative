@@ -1,14 +1,13 @@
 const views = {
-  editor: { src: "assets/editor.jpg", name: "The editor", detail: " — Connect ideas. Add detail.", alt: "MindNative editor with a New Project map, connected ideas, a Navigator, and an Inspector" },
-  radial: { src: "assets/radial.jpg", name: "Radial layout", detail: " — See the branches around one idea.", alt: "MindNative with a New Project map arranged in a radial layout around its central idea" },
-  presentation: { src: "assets/presentation.jpg", name: "Presentation", detail: " — Share one idea at a time.", alt: "MindNative presentation mode showing the New Project idea in a focused full-screen view" },
+  project: { src: "assets/project-map.webp", name: "Project map", detail: " — Connect ideas. Add detail.", alt: "MindNative with a New Project map connected to Goals, Milestones, Tasks, Risks, and Resources" },
+  blank: { src: "assets/blank-canvas.webp", name: "Blank canvas", detail: " — Add your first idea.", alt: "MindNative blank canvas with New idea, Brainstorm, and Template controls" },
 };
 const viewControls = document.querySelector(".view-controls");
 const viewImage = document.querySelector("#app-view");
 const viewFrame = document.querySelector("#app-frame");
 const viewStatus = document.querySelector("#view-status");
 const viewButtons = [...viewControls.querySelectorAll("button")];
-let requestedView = "editor";
+let requestedView = "project";
 viewControls.hidden = false;
 for (const button of viewButtons) {
   button.addEventListener("click", async () => {

@@ -36,7 +36,8 @@ See `DESIGN.md` for website styles and interaction rules.
 
 ## Assets
 
-The site uses the existing MindNative icon and three app screenshots.
+The site uses the existing MindNative icon and two app screenshots supplied by Sirwan Afifi.
+The screenshots use lossless WebP at their original size. They retain transparency.
 Origin information is embedded in each image or in its sidecar.
 Manrope is self-hosted under the SIL Open Font License.
 See `landing-page/assets/ASSETS.md` and `landing-page/assets/fonts/OFL.txt`.

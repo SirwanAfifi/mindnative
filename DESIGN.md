@@ -224,9 +224,9 @@ The one view-change effect is a 420ms frame reveal with `cubic-bezier(.16, 1, .3
 
 ## Shapes
 
-Actions, content fields, and command panels have square corners. The actual app view is the exception: its clipped frame uses `app-frame`, then `app-frame-compact` at 760px or less. It preserves the screenshot ratio of 1440:900 with `object-fit: contain`.
+Actions, content fields, and command panels have square corners. The actual app view is the exception: its frame uses `app-frame`, then `app-frame-compact` at 760px or less. It preserves the screenshot ratio of 2464:1744 with `object-fit: contain`. Keep the transparent window margins over the mint field.
 
-Most boundaries are 1px rules. The exhibit and build field have an ink border. The app frame uses its local border color. The small license status marker is a circle (7px). SVG icons use open strokes with round caps and joins; their standard size is 21px with 1.6px strokes. Navigation, text links, and copy controls use smaller versions of the same authored icons.
+Most boundaries are 1px rules. The exhibit and build field have an ink border. The app frame is transparent and has no added border. The small license status marker is a circle (7px). SVG icons use open strokes with round caps and joins; their standard size is 21px with 1.6px strokes. Navigation, text links, and copy controls use smaller versions of the same authored icons.
 
 ## Components
 
@@ -250,9 +250,9 @@ Header links are plain, un-underlined, and use `navigation`. Their gap is 32px, 
 
 The specimen is a real app screenshot in a mint field with a caption, a framed image, and controls. Its caption has a 44px minimum height. Its control footer has a 72px minimum height on larger layouts. The caption names the active view and gives one short description.
 
-View buttons have a 44px minimum height, a transparent background, and a 1px transparent border at rest. Hover shows a teal border. The selected button reverses stock text onto ink and uses `aria-pressed="true"`. The three views are Editor, Radial layout, and Presentation. These buttons form a named group, not a tab interface.
+View buttons have a 44px minimum height, a transparent background, and a 1px transparent border at rest. Hover shows a teal border. The selected button reverses stock text onto ink and uses `aria-pressed="true"`. The two views are Project map and Blank canvas. These buttons form a named group, not a tab interface.
 
-The script reveals the controls only when JavaScript runs. It decodes the requested image before replacing the source, alt text, and caption. The latest request wins if visitors switch quickly. During loading, the frame has `aria-busy="true"` and a polite status message. Failure keeps the existing screenshot and tells the visitor to try again. Without JavaScript, the editor screenshot and caption remain visible.
+The script reveals the controls only when JavaScript runs. It decodes the requested image before replacing the source, alt text, and caption. The latest request wins if visitors switch quickly. During loading, the frame has `aria-busy="true"` and a polite status message. Failure keeps the existing screenshot and tells the visitor to try again. Without JavaScript, the project map screenshot and caption remain visible.
 
 ### Feature rows and content fields
 

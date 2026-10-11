@@ -54,7 +54,7 @@ h1 span { color: var(--teal); }
 .specimen figcaption { min-height: 44px; display: flex; align-items: center; justify-content: space-between; gap: 20px; font-size: 12px; }
 .specimen figcaption strong { font-weight: 700; }
 .specimen-motto { font-size: 12px; font-weight: 600; white-space: nowrap; }
-.app-frame { aspect-ratio: 1440 / 900; border: 1px solid #718d88; border-radius: 10px; overflow: hidden; background: #101820; }
+.app-frame { aspect-ratio: 2464 / 1744; border-radius: 10px; overflow: hidden; background: transparent; }
 .app-frame img { display: block; width: 100%; height: 100%; object-fit: contain; }
 .app-frame.is-changing img { animation: frame-reveal 420ms var(--ease-out); }
 @keyframes frame-reveal { from { clip-path: inset(0 0 10% 0); } to { clip-path: inset(0); } }
