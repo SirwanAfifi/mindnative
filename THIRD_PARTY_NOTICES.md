@@ -26,3 +26,10 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+## Website font
+
+The website uses Manrope by the Manrope Project Authors.
+The font uses the SIL Open Font License, Version 1.1.
+See [the font license](landing-page/assets/fonts/OFL.txt).
+The font is used by the website only.

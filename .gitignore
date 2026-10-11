@@ -25,3 +25,9 @@ xcuserdata/
 *.pem
 *.mobileprovision
 *.provisionprofile
+
+# Local website previews and design review files
+.impeccable/mocks/
+.impeccable/review/
+.impeccable/questions/
+.impeccable/config.local.json

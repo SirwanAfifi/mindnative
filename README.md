@@ -2,6 +2,7 @@
 
 MindNative is an open-source mind map app for macOS.
 The app has no license fee.
+See the [website](https://sirwan.info/mindnative/) for app views and build steps.
 Use it to connect ideas, add notes, and save maps as `.mindnative` files.
 
 The app keeps maps on your Mac.
