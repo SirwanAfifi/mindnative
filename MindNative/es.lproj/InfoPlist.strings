@@ -1,0 +1,5 @@
+"CFBundleDisplayName" = "MindNative";
+"NSCalendarsWriteOnlyAccessUsageDescription" = "MindNative añade una idea seleccionada como evento de calendario solo cuando lo solicitas.";
+"NSCalendarsUsageDescription" = "MindNative añade una idea seleccionada como evento de calendario solo cuando lo solicitas.";
+"NSRemindersFullAccessUsageDescription" = "MindNative añade una idea seleccionada a Recordatorios solo cuando lo solicitas.";
+"NSRemindersUsageDescription" = "MindNative añade una idea seleccionada a Recordatorios solo cuando lo solicitas.";

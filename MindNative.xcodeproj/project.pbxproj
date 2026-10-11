@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C0D000000000000000000028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D1A1E072BA4B60000C9A1AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1A1E112BA4B60000C9A1AA;
+			remoteInfo = MindNative;
+		};
+		C0D000000000000000000029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D1A1E072BA4B60000C9A1AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D1A1E112BA4B60000C9A1AA;
+			remoteInfo = MindNative;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXBuildFile section */
+		A20000000000000000000001 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* LICENSE */; };
+		A20000000000000000000002 /* THIRD_PARTY_NOTICES.md in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* THIRD_PARTY_NOTICES.md */; };
+		C0D000000000000000000001 /* CanvasClipboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D000000000000000000002 /* CanvasClipboard.swift */; };
+		C0D000000000000000000003 /* InterchangeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D000000000000000000004 /* InterchangeService.swift */; };
+		C0D000000000000000000005 /* MapNavigatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D000000000000000000006 /* MapNavigatorView.swift */; };
+		C0D000000000000000000007 /* NodeInspectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D000000000000000000008 /* NodeInspectorView.swift */; };
+		C0D000000000000000000009 /* MinimapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D00000000000000000000A /* MinimapView.swift */; };
+		C0D000000000000000000011 /* DocumentModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D000000000000000000012 /* DocumentModelTests.swift */; };
+		C0D000000000000000000013 /* CanvasViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D000000000000000000014 /* CanvasViewModelTests.swift */; };
+		C0D000000000000000000015 /* InterchangeServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D000000000000000000016 /* InterchangeServiceTests.swift */; };
+		C0D000000000000000000017 /* MindNativeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D000000000000000000018 /* MindNativeUITests.swift */; };
+		D10000000000000000000002 /* IdeaAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000001 /* IdeaAttachment.swift */; };
+		D10000000000000000000004 /* DocumentLifecycleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000003 /* DocumentLifecycleService.swift */; };
+		D10000000000000000000006 /* UpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000005 /* UpdateService.swift */; };
+		D10000000000000000000008 /* LinkPreviewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000007 /* LinkPreviewService.swift */; };
+		D1000000000000000000000A /* SystemIntegrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000009 /* SystemIntegrationService.swift */; };
+		D1000000000000000000000C /* AttachmentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1000000000000000000000B /* AttachmentService.swift */; };
+		D1000000000000000000000E /* CanvasSpatialIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1000000000000000000000D /* CanvasSpatialIndex.swift */; };
+		D10000000000000000000010 /* CanvasViewModel+Productivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1000000000000000000000F /* CanvasViewModel+Productivity.swift */; };
+		D10000000000000000000012 /* MindNativeAppIntents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000011 /* MindNativeAppIntents.swift */; };
+		D10000000000000000000014 /* PresentationOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000013 /* PresentationOverlay.swift */; };
+		D10000000000000000000016 /* DocumentConflictBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000015 /* DocumentConflictBanner.swift */; };
+		D10000000000000000000018 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D10000000000000000000017 /* PrivacyInfo.xcprivacy */; };
+		D1000000000000000000001E /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = D10000000000000000000020 /* ZIPFoundation */; };
+		E10000000000000000000001 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E10000000000000000000005 /* Localizable.strings */; };
+		E10000000000000000000002 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E10000000000000000000006 /* InfoPlist.strings */; };
+		E1000000000000000000000B /* DiagnosticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1000000000000000000000C /* DiagnosticsService.swift */; };
+		F10000000000000000000001 /* PhaseTwoFeatureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10000000000000000000002 /* PhaseTwoFeatureTests.swift */; };
+		5EA08F32149CB414B4BFC4E2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB666B14D5263F9E49D1605 /* SettingsView.swift */; };
+		9D1A1E0A2BA4B60000C9A1AA /* MindNativeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E1A2BA4B60000C9A1AA /* MindNativeApp.swift */; };
+		9D1A1E0C2BA4B60000C9A1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1A1E1D2BA4B60000C9A1AA /* Assets.xcassets */; };
+		9D1A1E212BA4B60000C9A1AA /* ColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E222BA4B60000C9A1AA /* ColorTheme.swift */; };
+		9D1A1E9A2BA4B60000C9A1AA /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E9B2BA4B60000C9A1AA /* DesignSystem.swift */; };
+		9D1A1E232BA4B60000C9A1AA /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E242BA4B60000C9A1AA /* Color+Hex.swift */; };
+		9D1A1E252BA4B60000C9A1AA /* IdeaNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E262BA4B60000C9A1AA /* IdeaNode.swift */; };
+		9D1A1E272BA4B60000C9A1AA /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E282BA4B60000C9A1AA /* Connection.swift */; };
+		9D1A1E292BA4B60000C9A1AA /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E2A2BA4B60000C9A1AA /* AIService.swift */; };
+		9D1A1E2B2BA4B60000C9A1AA /* CanvasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E2C2BA4B60000C9A1AA /* CanvasViewModel.swift */; };
+		9D1A1E2D2BA4B60000C9A1AA /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E2E2BA4B60000C9A1AA /* CanvasView.swift */; };
+		9D1A1E2F2BA4B60000C9A1AA /* NodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E302BA4B60000C9A1AA /* NodeView.swift */; };
+		9D1A1E312BA4B60000C9A1AA /* EdgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E322BA4B60000C9A1AA /* EdgeView.swift */; };
+		9D1A1E332BA4B60000C9A1AA /* AIGenerationOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E342BA4B60000C9A1AA /* AIGenerationOverlay.swift */; };
+		9D1A1E3A2BA4B60000C9A1AA /* LayoutConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1A1E3B2BA4B60000C9A1AA /* LayoutConstants.swift */; };
+		A916A53820A1131A67283C3B /* UndoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8F6A84759905E74C47F3DF /* UndoService.swift */; };
+		BC5185C445584F0EF9D5BA51 /* AppCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B040633B600E3483E00B46D /* AppCommands.swift */; };
+		CD51D44949AA843D88708A62 /* MindDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA98B463DF2358B841CDD80C /* MindDocument.swift */; };
+		E63B80432EDCDFB9003218AC /* LayoutEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63B80422EDCDFB8003218AC /* LayoutEngine.swift */; };
+		F8F4B22290D5140007C7B81B /* KeyEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08DF0CD79E25C10AA51D0744 /* KeyEventHandler.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000000000000000000003 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A20000000000000000000004 /* THIRD_PARTY_NOTICES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = THIRD_PARTY_NOTICES.md; sourceTree = "<group>"; };
+		C0D000000000000000000002 /* CanvasClipboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasClipboard.swift; sourceTree = "<group>"; };
+		C0D000000000000000000004 /* InterchangeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterchangeService.swift; sourceTree = "<group>"; };
+		C0D000000000000000000006 /* MapNavigatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapNavigatorView.swift; sourceTree = "<group>"; };
+		C0D000000000000000000008 /* NodeInspectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeInspectorView.swift; sourceTree = "<group>"; };
+		C0D00000000000000000000A /* MinimapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimapView.swift; sourceTree = "<group>"; };
+		C0D000000000000000000012 /* DocumentModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentModelTests.swift; sourceTree = "<group>"; };
+		C0D000000000000000000014 /* CanvasViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModelTests.swift; sourceTree = "<group>"; };
+		C0D000000000000000000016 /* InterchangeServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterchangeServiceTests.swift; sourceTree = "<group>"; };
+		C0D000000000000000000018 /* MindNativeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindNativeUITests.swift; sourceTree = "<group>"; };
+		C0D00000000000000000001A /* MindNativeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindNativeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D00000000000000000001B /* MindNativeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindNativeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10000000000000000000001 /* IdeaAttachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaAttachment.swift; sourceTree = "<group>"; };
+		D10000000000000000000003 /* DocumentLifecycleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentLifecycleService.swift; sourceTree = "<group>"; };
+		D10000000000000000000005 /* UpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateService.swift; sourceTree = "<group>"; };
+		D10000000000000000000007 /* LinkPreviewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkPreviewService.swift; sourceTree = "<group>"; };
+		D10000000000000000000009 /* SystemIntegrationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemIntegrationService.swift; sourceTree = "<group>"; };
+		D1000000000000000000000B /* AttachmentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentService.swift; sourceTree = "<group>"; };
+		D1000000000000000000000D /* CanvasSpatialIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasSpatialIndex.swift; sourceTree = "<group>"; };
+		D1000000000000000000000F /* CanvasViewModel+Productivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CanvasViewModel+Productivity.swift"; sourceTree = "<group>"; };
+		D10000000000000000000011 /* MindNativeAppIntents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindNativeAppIntents.swift; sourceTree = "<group>"; };
+		D10000000000000000000013 /* PresentationOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationOverlay.swift; sourceTree = "<group>"; };
+		D10000000000000000000015 /* DocumentConflictBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentConflictBanner.swift; sourceTree = "<group>"; };
+		D10000000000000000000017 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		E10000000000000000000007 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E10000000000000000000008 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E10000000000000000000009 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1000000000000000000000A /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E1000000000000000000000C /* DiagnosticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsService.swift; sourceTree = "<group>"; };
+		F10000000000000000000002 /* PhaseTwoFeatureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhaseTwoFeatureTests.swift; sourceTree = "<group>"; };
+		08DF0CD79E25C10AA51D0744 /* KeyEventHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeyEventHandler.swift; sourceTree = "<group>"; };
+		4AB666B14D5263F9E49D1605 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6B040633B600E3483E00B46D /* AppCommands.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppCommands.swift; path = Commands/AppCommands.swift; sourceTree = "<group>"; };
+		9C8F6A84759905E74C47F3DF /* UndoService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UndoService.swift; sourceTree = "<group>"; };
+		9D1A1E122BA4B60000C9A1AA /* MindNative.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindNative.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1A1E1A2BA4B60000C9A1AA /* MindNativeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindNativeApp.swift; sourceTree = "<group>"; };
+		9D1A1E1C2BA4B60000C9A1AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D1A1E1D2BA4B60000C9A1AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D1A1E202BA4B60000C9A1AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D1A1E222BA4B60000C9A1AA /* ColorTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTheme.swift; sourceTree = "<group>"; };
+		9D1A1E9B2BA4B60000C9A1AA /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		9D1A1E242BA4B60000C9A1AA /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
+		9D1A1E262BA4B60000C9A1AA /* IdeaNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdeaNode.swift; sourceTree = "<group>"; };
+		9D1A1E282BA4B60000C9A1AA /* Connection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		9D1A1E2A2BA4B60000C9A1AA /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		9D1A1E2C2BA4B60000C9A1AA /* CanvasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewModel.swift; sourceTree = "<group>"; };
+		9D1A1E2E2BA4B60000C9A1AA /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		9D1A1E302BA4B60000C9A1AA /* NodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeView.swift; sourceTree = "<group>"; };
+		9D1A1E322BA4B60000C9A1AA /* EdgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeView.swift; sourceTree = "<group>"; };
+		9D1A1E342BA4B60000C9A1AA /* AIGenerationOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIGenerationOverlay.swift; sourceTree = "<group>"; };
+		9D1A1E3B2BA4B60000C9A1AA /* LayoutConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutConstants.swift; sourceTree = "<group>"; };
+		E63B80422EDCDFB8003218AC /* LayoutEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutEngine.swift; sourceTree = "<group>"; };
+		FA98B463DF2358B841CDD80C /* MindDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MindDocument.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0D00000000000000000001E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D00000000000000000001F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1A1E0E2BA4B60000C9A1AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1000000000000000000001E /* ZIPFoundation in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D1A1E062BA4B60000C9A1AA = {
+			isa = PBXGroup;
+			children = (
+				9D1A1E192BA4B60000C9A1AA /* MindNative */,
+				C0D00000000000000000001C /* MindNativeTests */,
+				C0D00000000000000000001D /* MindNativeUITests */,
+				9D1A1E132BA4B60000C9A1AA /* Products */,
+				A20000000000000000000003 /* LICENSE */,
+				A20000000000000000000004 /* THIRD_PARTY_NOTICES.md */,
+			);
+			sourceTree = "<group>";
+		};
+		9D1A1E132BA4B60000C9A1AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D1A1E122BA4B60000C9A1AA /* MindNative.app */,
+				C0D00000000000000000001A /* MindNativeTests.xctest */,
+				C0D00000000000000000001B /* MindNativeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D1A1E192BA4B60000C9A1AA /* MindNative */ = {
+			isa = PBXGroup;
+			children = (
+				9D1A1E1A2BA4B60000C9A1AA /* MindNativeApp.swift */,
+				9D1A1E222BA4B60000C9A1AA /* ColorTheme.swift */,
+				9D1A1E9B2BA4B60000C9A1AA /* DesignSystem.swift */,
+				9D1A1E3B2BA4B60000C9A1AA /* LayoutConstants.swift */,
+				9D1A1E352BA4B60000C9A1AA /* Extensions */,
+				9D1A1E362BA4B60000C9A1AA /* Models */,
+				9D1A1E372BA4B60000C9A1AA /* Services */,
+				9D1A1E382BA4B60000C9A1AA /* ViewModels */,
+				9D1A1E392BA4B60000C9A1AA /* Views */,
+				9D1A1E1D2BA4B60000C9A1AA /* Assets.xcassets */,
+				9D1A1E1F2BA4B60000C9A1AA /* Preview Content */,
+				9D1A1E1C2BA4B60000C9A1AA /* Info.plist */,
+				D10000000000000000000017 /* PrivacyInfo.xcprivacy */,
+				E10000000000000000000005 /* Localizable.strings */,
+				E10000000000000000000006 /* InfoPlist.strings */,
+				D1000000000000000000001D /* AppIntents */,
+				BA5A3761E4C31A6622A7140F /* Commands */,
+			);
+			path = MindNative;
+			sourceTree = "<group>";
+		};
+		9D1A1E1F2BA4B60000C9A1AA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9D1A1E202BA4B60000C9A1AA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D1A1E352BA4B60000C9A1AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9D1A1E242BA4B60000C9A1AA /* Color+Hex.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9D1A1E362BA4B60000C9A1AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9D1A1E262BA4B60000C9A1AA /* IdeaNode.swift */,
+				9D1A1E282BA4B60000C9A1AA /* Connection.swift */,
+				FA98B463DF2358B841CDD80C /* MindDocument.swift */,
+				D10000000000000000000001 /* IdeaAttachment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D1A1E372BA4B60000C9A1AA /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9D1A1E2A2BA4B60000C9A1AA /* AIService.swift */,
+				C0D000000000000000000002 /* CanvasClipboard.swift */,
+				C0D000000000000000000004 /* InterchangeService.swift */,
+				9C8F6A84759905E74C47F3DF /* UndoService.swift */,
+				D10000000000000000000003 /* DocumentLifecycleService.swift */,
+				D10000000000000000000005 /* UpdateService.swift */,
+				D10000000000000000000007 /* LinkPreviewService.swift */,
+				D10000000000000000000009 /* SystemIntegrationService.swift */,
+				D1000000000000000000000B /* AttachmentService.swift */,
+				E1000000000000000000000C /* DiagnosticsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9D1A1E382BA4B60000C9A1AA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9D1A1E2C2BA4B60000C9A1AA /* CanvasViewModel.swift */,
+				E63B80422EDCDFB8003218AC /* LayoutEngine.swift */,
+				D1000000000000000000000D /* CanvasSpatialIndex.swift */,
+				D1000000000000000000000F /* CanvasViewModel+Productivity.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9D1A1E392BA4B60000C9A1AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D1A1E2E2BA4B60000C9A1AA /* CanvasView.swift */,
+				9D1A1E302BA4B60000C9A1AA /* NodeView.swift */,
+				9D1A1E322BA4B60000C9A1AA /* EdgeView.swift */,
+				9D1A1E342BA4B60000C9A1AA /* AIGenerationOverlay.swift */,
+				C0D000000000000000000006 /* MapNavigatorView.swift */,
+				C0D000000000000000000008 /* NodeInspectorView.swift */,
+				C0D00000000000000000000A /* MinimapView.swift */,
+				08DF0CD79E25C10AA51D0744 /* KeyEventHandler.swift */,
+				4AB666B14D5263F9E49D1605 /* SettingsView.swift */,
+				D10000000000000000000013 /* PresentationOverlay.swift */,
+				D10000000000000000000015 /* DocumentConflictBanner.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA5A3761E4C31A6622A7140F /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				6B040633B600E3483E00B46D /* AppCommands.swift */,
+			);
+			name = Commands;
+			sourceTree = "<group>";
+		};
+		D1000000000000000000001D /* AppIntents */ = {
+			isa = PBXGroup;
+			children = (
+				D10000000000000000000011 /* MindNativeAppIntents.swift */,
+			);
+			path = AppIntents;
+			sourceTree = "<group>";
+		};
+		C0D00000000000000000001C /* MindNativeTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0D000000000000000000012 /* DocumentModelTests.swift */,
+				C0D000000000000000000014 /* CanvasViewModelTests.swift */,
+				C0D000000000000000000016 /* InterchangeServiceTests.swift */,
+				F10000000000000000000002 /* PhaseTwoFeatureTests.swift */,
+			);
+			path = MindNativeTests;
+			sourceTree = "<group>";
+		};
+		C0D00000000000000000001D /* MindNativeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C0D000000000000000000018 /* MindNativeUITests.swift */,
+			);
+			path = MindNativeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0D000000000000000000024 /* MindNativeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D00000000000000000002A /* Build configuration list for PBXNativeTarget "MindNativeTests" */;
+			buildPhases = (
+				C0D000000000000000000020 /* Sources */,
+				C0D00000000000000000001E /* Frameworks */,
+				C0D000000000000000000022 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D000000000000000000026 /* PBXTargetDependency */,
+			);
+			name = MindNativeTests;
+			productName = MindNativeTests;
+			productReference = C0D00000000000000000001A /* MindNativeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C0D000000000000000000025 /* MindNativeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0D00000000000000000002B /* Build configuration list for PBXNativeTarget "MindNativeUITests" */;
+			buildPhases = (
+				C0D000000000000000000021 /* Sources */,
+				C0D00000000000000000001F /* Frameworks */,
+				C0D000000000000000000023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0D000000000000000000027 /* PBXTargetDependency */,
+			);
+			name = MindNativeUITests;
+			productName = MindNativeUITests;
+			productReference = C0D00000000000000000001B /* MindNativeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9D1A1E112BA4B60000C9A1AA /* MindNative */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D1A1E182BA4B60000C9A1AA /* Build configuration list for PBXNativeTarget "MindNative" */;
+			buildPhases = (
+				9D1A1E0A2BA4B60000C9A1AB /* Sources */,
+				9D1A1E0E2BA4B60000C9A1AA /* Frameworks */,
+				9D1A1E0F2BA4B60000C9A1AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindNative;
+			packageProductDependencies = (
+				D10000000000000000000020 /* ZIPFoundation */,
+			);
+			productName = MindNative;
+			productReference = 9D1A1E122BA4B60000C9A1AA /* MindNative.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXTargetDependency section */
+		C0D000000000000000000026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1A1E112BA4B60000C9A1AA /* MindNative */;
+			targetProxy = C0D000000000000000000028 /* PBXContainerItemProxy */;
+		};
+		C0D000000000000000000027 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D1A1E112BA4B60000C9A1AA /* MindNative */;
+			targetProxy = C0D000000000000000000029 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXProject section */
+		9D1A1E072BA4B60000C9A1AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C0D000000000000000000024 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9D1A1E112BA4B60000C9A1AA;
+					};
+					C0D000000000000000000025 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9D1A1E112BA4B60000C9A1AA;
+					};
+					9D1A1E112BA4B60000C9A1AA = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 9D1A1E0B2BA4B60000C9A1AB /* Build configuration list for PBXProject "MindNative" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 9D1A1E062BA4B60000C9A1AA;
+			productRefGroup = 9D1A1E132BA4B60000C9A1AA /* Products */;
+			packageReferences = (
+				D1000000000000000000001F /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D1A1E112BA4B60000C9A1AA /* MindNative */,
+				C0D000000000000000000024 /* MindNativeTests */,
+				C0D000000000000000000025 /* MindNativeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0D000000000000000000022 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D000000000000000000023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1A1E0F2BA4B60000C9A1AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1A1E0C2BA4B60000C9A1AA /* Assets.xcassets in Resources */,
+				A20000000000000000000001 /* LICENSE in Resources */,
+				A20000000000000000000002 /* THIRD_PARTY_NOTICES.md in Resources */,
+				D10000000000000000000018 /* PrivacyInfo.xcprivacy in Resources */,
+				E10000000000000000000001 /* Localizable.strings in Resources */,
+				E10000000000000000000002 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E10000000000000000000005 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E10000000000000000000007 /* en */,
+				E10000000000000000000008 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E10000000000000000000006 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E10000000000000000000009 /* en */,
+				E1000000000000000000000A /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0D000000000000000000020 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D000000000000000000011 /* DocumentModelTests.swift in Sources */,
+				C0D000000000000000000013 /* CanvasViewModelTests.swift in Sources */,
+				C0D000000000000000000015 /* InterchangeServiceTests.swift in Sources */,
+				F10000000000000000000001 /* PhaseTwoFeatureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0D000000000000000000021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0D000000000000000000017 /* MindNativeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D1A1E0A2BA4B60000C9A1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D1A1E0A2BA4B60000C9A1AA /* MindNativeApp.swift in Sources */,
+				E63B80432EDCDFB9003218AC /* LayoutEngine.swift in Sources */,
+				9D1A1E212BA4B60000C9A1AA /* ColorTheme.swift in Sources */,
+				9D1A1E9A2BA4B60000C9A1AA /* DesignSystem.swift in Sources */,
+				9D1A1E3A2BA4B60000C9A1AA /* LayoutConstants.swift in Sources */,
+				9D1A1E232BA4B60000C9A1AA /* Color+Hex.swift in Sources */,
+				9D1A1E252BA4B60000C9A1AA /* IdeaNode.swift in Sources */,
+				9D1A1E272BA4B60000C9A1AA /* Connection.swift in Sources */,
+				9D1A1E292BA4B60000C9A1AA /* AIService.swift in Sources */,
+				C0D000000000000000000001 /* CanvasClipboard.swift in Sources */,
+				C0D000000000000000000003 /* InterchangeService.swift in Sources */,
+				9D1A1E2B2BA4B60000C9A1AA /* CanvasViewModel.swift in Sources */,
+				9D1A1E2D2BA4B60000C9A1AA /* CanvasView.swift in Sources */,
+				9D1A1E2F2BA4B60000C9A1AA /* NodeView.swift in Sources */,
+				9D1A1E312BA4B60000C9A1AA /* EdgeView.swift in Sources */,
+				9D1A1E332BA4B60000C9A1AA /* AIGenerationOverlay.swift in Sources */,
+				C0D000000000000000000005 /* MapNavigatorView.swift in Sources */,
+				C0D000000000000000000007 /* NodeInspectorView.swift in Sources */,
+				C0D000000000000000000009 /* MinimapView.swift in Sources */,
+				BC5185C445584F0EF9D5BA51 /* AppCommands.swift in Sources */,
+				A916A53820A1131A67283C3B /* UndoService.swift in Sources */,
+				F8F4B22290D5140007C7B81B /* KeyEventHandler.swift in Sources */,
+				5EA08F32149CB414B4BFC4E2 /* SettingsView.swift in Sources */,
+				CD51D44949AA843D88708A62 /* MindDocument.swift in Sources */,
+				D10000000000000000000002 /* IdeaAttachment.swift in Sources */,
+				D10000000000000000000004 /* DocumentLifecycleService.swift in Sources */,
+				D10000000000000000000006 /* UpdateService.swift in Sources */,
+				D10000000000000000000008 /* LinkPreviewService.swift in Sources */,
+				D1000000000000000000000A /* SystemIntegrationService.swift in Sources */,
+				D1000000000000000000000C /* AttachmentService.swift in Sources */,
+				D1000000000000000000000E /* CanvasSpatialIndex.swift in Sources */,
+				D10000000000000000000010 /* CanvasViewModel+Productivity.swift in Sources */,
+				D10000000000000000000012 /* MindNativeAppIntents.swift in Sources */,
+				D10000000000000000000014 /* PresentationOverlay.swift in Sources */,
+				D10000000000000000000016 /* DocumentConflictBanner.swift in Sources */,
+				E1000000000000000000000B /* DiagnosticsService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D1000000000000000000001F /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.9.20;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D10000000000000000000020 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D1000000000000000000001F /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9D1A1E142BA4B60000C9A1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "MindNative/Preview\\ Content";
+				CODE_SIGN_ENTITLEMENTS = MindNative/MindNative.entitlements;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTABILITY = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MindNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirwanafifi.MindNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		9D1A1E152BA4B60000C9A1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "MindNative/Preview\\ Content";
+				CODE_SIGN_ENTITLEMENTS = MindNative/MindNative.entitlements;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = MindNative/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirwanafifi.MindNative;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D1A1E162BA4B60000C9A1AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9D1A1E172BA4B60000C9A1AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0D00000000000000000002C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirwanafifi.MindNativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindNative.app/Contents/MacOS/MindNative";
+			};
+			name = Debug;
+		};
+		C0D00000000000000000002D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirwanafifi.MindNativeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindNative.app/Contents/MacOS/MindNative";
+			};
+			name = Release;
+		};
+		C0D00000000000000000002E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirwanafifi.MindNativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MindNative;
+			};
+			name = Debug;
+		};
+		C0D00000000000000000002F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sirwanafifi.MindNativeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = MindNative;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0D00000000000000000002A /* Build configuration list for PBXNativeTarget "MindNativeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D00000000000000000002C /* Debug */,
+				C0D00000000000000000002D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0D00000000000000000002B /* Build configuration list for PBXNativeTarget "MindNativeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0D00000000000000000002E /* Debug */,
+				C0D00000000000000000002F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D1A1E0B2BA4B60000C9A1AB /* Build configuration list for PBXProject "MindNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1A1E162BA4B60000C9A1AA /* Debug */,
+				9D1A1E172BA4B60000C9A1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D1A1E182BA4B60000C9A1AA /* Build configuration list for PBXNativeTarget "MindNative" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D1A1E142BA4B60000C9A1AA /* Debug */,
+				9D1A1E152BA4B60000C9A1AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D1A1E072BA4B60000C9A1AA /* Project object */;
+}

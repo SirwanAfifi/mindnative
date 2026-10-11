@@ -1,0 +1,27 @@
+# macOS files
+.DS_Store
+
+# Xcode user files
+xcuserdata/
+*.xcuserstate
+
+# Build and test output
+/build/
+/DerivedData/
+*.xcresult
+*.xcarchive
+
+# Local tools
+/.claude/
+/.codex/
+/.codebase-memory/
+/.venv/
+
+# Local credentials
+.env
+.env.*
+*.p12
+*.p8
+*.pem
+*.mobileprovision
+*.provisionprofile
