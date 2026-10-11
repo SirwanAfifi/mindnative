@@ -22,6 +22,8 @@ The `Publish landing page` workflow publishes the folder through GitHub Pages.
 You can also start the workflow from the Actions page.
 
 Keep asset links relative to the page.
+If you change CSS or JavaScript, update its version value in `index.html`.
+This makes browsers load the new file after publication.
 Do not put private files in `landing-page/`.
 
 ## Content
